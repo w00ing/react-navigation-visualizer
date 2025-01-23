@@ -1,5 +1,7 @@
 import React from "react";
 import { cn } from "@/lib/utils";
+import { Handle, Position } from "@xyflow/react";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 export const BaseNode = React.forwardRef<
   HTMLDivElement,
@@ -18,3 +20,17 @@ export const BaseNode = React.forwardRef<
   ></div>
 ));
 BaseNode.displayName = "BaseNode";
+
+export function BaseNodeCard({ data }: { data: { label: string } }) {
+  return (
+    <Card className="w-[300px]">
+      <CardHeader>
+        <CardTitle className="text-sm">{data.label}</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <Handle type="target" position={Position.Top} />
+        <Handle type="source" position={Position.Bottom} />
+      </CardContent>
+    </Card>
+  );
+}
