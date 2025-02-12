@@ -1,0 +1,2414 @@
+{
+  "nodes": [
+    {
+      "id": "CalendarStack",
+      "type": "navigator",
+      "data": {
+        "label": "Calendarstack",
+        "fullName": "CalendarStack",
+        "component": "CalendarStack",
+        "navigatorType": "createStackNavigator",
+        "file": "navigations/CalendarStackNavigator.tsx"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SUMLOG_TIMELINE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Sumlog Timeline Page",
+        "fullName": "ScreenName.SUMLOG_TIMELINE_PAGE",
+        "component": "SumlogTimelinePage",
+        "file": "navigations/CalendarStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 60
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SUMLOG_CALENDAR_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Sumlog Calendar Page",
+        "fullName": "ScreenName.SUMLOG_CALENDAR_PAGE",
+        "component": "SumlogCalendarPage",
+        "file": "navigations/CalendarStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 60
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "HomeStack",
+      "type": "navigator",
+      "data": {
+        "label": "Homestack",
+        "fullName": "HomeStack",
+        "component": "HomeStack",
+        "navigatorType": "createStackNavigator",
+        "file": "navigations/HomeStackNavigator.tsx"
+      },
+      "position": {
+        "x": 400,
+        "y": 300
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "HOME_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Home Page",
+        "fullName": "ScreenName.HOME_PAGE",
+        "component": "HomePage",
+        "file": "navigations/HomeStackNavigator.tsx"
+      },
+      "position": {
+        "x": 300,
+        "y": 400
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "HISTORY_LIST_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "History List Page",
+        "fullName": "ScreenName.HISTORY_LIST_PAGE",
+        "component": "HistoryListPage",
+        "file": "navigations/HomeStackNavigator.tsx"
+      },
+      "position": {
+        "x": 500,
+        "y": 400
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "MainTab",
+      "type": "navigator",
+      "data": {
+        "label": "Maintab",
+        "fullName": "MainTab",
+        "component": "MainTab",
+        "navigatorType": "createBottomTabNavigator",
+        "file": "navigations/MainTabNavigator.tsx"
+      },
+      "position": {
+        "x": 800,
+        "y": 200
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "HOME_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Home Stack",
+        "fullName": "NavigatorName.HOME_STACK",
+        "component": "HomeStackNavigator",
+        "file": "navigations/MainTabNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 180
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "QNA_TAB",
+      "type": "screen",
+      "data": {
+        "label": "Qna Tab",
+        "fullName": "NavigatorName.QNA_TAB",
+        "component": "QnATabNavigator",
+        "file": "navigations/MainTabNavigator.tsx"
+      },
+      "position": {
+        "x": 800,
+        "y": 300
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "SETTING_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Setting Stack",
+        "fullName": "NavigatorName.SETTING_STACK",
+        "component": "SettingStackNavigator",
+        "file": "navigations/MainTabNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 180
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "TrunkStack",
+      "type": "navigator",
+      "data": {
+        "label": "Trunkstack",
+        "fullName": "TrunkStack",
+        "component": "TrunkStack",
+        "navigatorType": "createStackNavigator",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 800,
+        "y": 100
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "QNA_SWIPE_LIST_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Qna Swipe List Page",
+        "fullName": "ScreenName.QNA_SWIPE_LIST_PAGE",
+        "component": "QnaListSwipePage",
+        "file": "navigations/QnaStackNavigator.tsx"
+      },
+      "position": {
+        "x": 900,
+        "y": 400
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "QNA_ANSWER_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Qna Answer Page",
+        "fullName": "ScreenName.QNA_ANSWER_PAGE",
+        "component": "QnaAnswerPage",
+        "file": "navigations/QnaStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "QNA_COMMENT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Qna Comment Page",
+        "fullName": "ScreenName.QNA_COMMENT_PAGE",
+        "component": "QnaCommentPage",
+        "file": "navigations/QnaStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "QnATab",
+      "type": "navigator",
+      "data": {
+        "label": "Qnatab",
+        "fullName": "QnATab",
+        "component": "QnATab",
+        "navigatorType": "createBottomTabNavigator",
+        "file": "navigations/QnaTabNavigator.tsx"
+      },
+      "position": {
+        "x": 800,
+        "y": 300
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "QNA_LIST_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Qna List Page",
+        "fullName": "ScreenName.QNA_LIST_PAGE",
+        "component": "QnaListPage",
+        "file": "navigations/QnaTabNavigator.tsx"
+      },
+      "position": {
+        "x": 700,
+        "y": 400
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "RootStack",
+      "type": "navigator",
+      "data": {
+        "label": "Rootstack",
+        "fullName": "RootStack",
+        "component": "RootStack",
+        "navigatorType": "createStackNavigator",
+        "file": "navigations/RootNavigator.tsx"
+      },
+      "position": {
+        "x": 1000,
+        "y": 0
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "TRUNK_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Trunk Stack",
+        "fullName": "NavigatorName.TRUNK_STACK",
+        "component": "TrunkStackNavigator",
+        "file": "navigations/RootNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 360
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "USER_ACTIVATE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "User Activate Page",
+        "fullName": "ScreenName.USER_ACTIVATE_PAGE",
+        "component": "UserActivatePage",
+        "file": "navigations/RootNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 360
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "AUTH_LANDING_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Auth Landing Page",
+        "fullName": "ScreenName.AUTH_LANDING_PAGE",
+        "component": "AuthLandingPage",
+        "file": "navigations/RootNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 360
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "WEB_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Web Page",
+        "fullName": "ScreenName.WEB_PAGE",
+        "component": "WebPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 360
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SettingStack",
+      "type": "navigator",
+      "data": {
+        "label": "Settingstack",
+        "fullName": "SettingStack",
+        "component": "SettingStack",
+        "navigatorType": "createStackNavigator",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 1200,
+        "y": 300
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "COUPLE_PROFILE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Profile Page",
+        "fullName": "ScreenName.COUPLE_PROFILE_PAGE",
+        "component": "CoupleProfilePage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 420
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SETTING_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Setting Page",
+        "fullName": "ScreenName.SETTING_PAGE",
+        "component": "SettingPage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 1100,
+        "y": 400
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "SYSTEM_INFO_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "System Info Page",
+        "fullName": "ScreenName.SYSTEM_INFO_PAGE",
+        "component": "SystemInfoPage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 1300,
+        "y": 400
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "COUPLE_CONNECTION_INFO_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Connection Info Page",
+        "fullName": "ScreenName.COUPLE_CONNECTION_INFO_PAGE",
+        "component": "CoupleConnectionInfoPage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 900,
+        "y": 420
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "COUPLE_INFO_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Info Page",
+        "fullName": "ScreenName.COUPLE_INFO_PAGE",
+        "component": "CoupleInfoPage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 1080,
+        "y": 420
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "DATA_REFRESH_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Data Refresh Page",
+        "fullName": "ScreenName.DATA_REFRESH_PAGE",
+        "component": "DataRefreshPage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 1260,
+        "y": 420
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "CS_CATEGORY_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Cs Category Page",
+        "fullName": "ScreenName.CS_CATEGORY_PAGE",
+        "component": "CSCategoryPage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 1440,
+        "y": 420
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "ITEM_STORAGE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Item Storage Page",
+        "fullName": "ScreenName.ITEM_STORAGE_PAGE",
+        "component": "ItemStoragePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 420
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "LANGUAGE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Language Page",
+        "fullName": "ScreenName.LANGUAGE_PAGE",
+        "component": "LanguagePage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 1620,
+        "y": 420
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "NOTIFICATION_SETTING_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Notification Setting Page",
+        "fullName": "ScreenName.NOTIFICATION_SETTING_PAGE",
+        "component": "NotificationSettingPage",
+        "file": "navigations/SettingStackNavigator.tsx"
+      },
+      "position": {
+        "x": 1800,
+        "y": 420
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "MAIN_TAB",
+      "type": "screen",
+      "data": {
+        "label": "Main Tab",
+        "fullName": "NavigatorName.MAIN_TAB",
+        "component": "MainTabNavigator",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "QNA_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Qna Stack",
+        "fullName": "NavigatorName.QNA_STACK",
+        "component": "QnaStackNavigator",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "OBJET_SHOP_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Objet Shop Page",
+        "fullName": "ScreenName.OBJET_SHOP_PAGE",
+        "component": "ObjetShopPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "OBJET_PREVIEW_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Objet Preview Page",
+        "fullName": "ScreenName.OBJET_PREVIEW_PAGE",
+        "component": "ObjetPreviewPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "OBJET_PURCHASE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Objet Purchase Page",
+        "fullName": "ScreenName.OBJET_PURCHASE_PAGE",
+        "component": "ObjetPurchasePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SHOP_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Shop Page",
+        "fullName": "ScreenName.SHOP_PAGE",
+        "component": "ShopPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "GOLD_PURCHASE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Gold Purchase Page",
+        "fullName": "ScreenName.GOLD_PURCHASE_PAGE",
+        "component": "GoldPurchasePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "MEMO_WRITE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Memo Write Page",
+        "fullName": "ScreenName.MEMO_WRITE_PAGE",
+        "component": "MemoWritePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "MEMO_CONFIRM_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Memo Confirm Page",
+        "fullName": "ScreenName.MEMO_CONFIRM_PAGE",
+        "component": "MemoConfirmPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "COUPLE_MEMO_LIST_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Memo List Page",
+        "fullName": "ScreenName.COUPLE_MEMO_LIST_PAGE",
+        "component": "CoupleMemoListPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "COUPLE_MEMO_DETAIL_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Memo Detail Page",
+        "fullName": "ScreenName.COUPLE_MEMO_DETAIL_PAGE",
+        "component": "CoupleMemoDetailPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "DIARY_DRAW_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Diary Draw Page",
+        "fullName": "ScreenName.DIARY_DRAW_PAGE",
+        "component": "DiaryDrawPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "PET_REGISTRATION_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Pet Registration Page",
+        "fullName": "ScreenName.PET_REGISTRATION_PAGE",
+        "component": "PetRegistrationPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "PET_SPACE_CUSTOM_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Pet Space Custom Page",
+        "fullName": "ScreenName.PET_SPACE_CUSTOM_PAGE",
+        "component": "PetSpaceCustomPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "PET_SKIN_SHOP_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Pet Skin Shop Page",
+        "fullName": "ScreenName.PET_SKIN_SHOP_PAGE",
+        "component": "PetSkinShopPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "PET_SKIN_GACHA_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Pet Skin Gacha Page",
+        "fullName": "ScreenName.PET_SKIN_GACHA_PAGE",
+        "component": "PetSkinGachaPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "PET_SKIN_CUSTOM_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Pet Skin Custom Page",
+        "fullName": "ScreenName.PET_SKIN_CUSTOM_PAGE",
+        "component": "PetSkinCustomPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "PET_EVOLVE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Pet Evolve Page",
+        "fullName": "ScreenName.PET_EVOLVE_PAGE",
+        "component": "PetEvolvePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "DIARY_LIST_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Diary List Page",
+        "fullName": "ScreenName.DIARY_LIST_PAGE",
+        "component": "DiaryListPage",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "DIARY_DETAIL_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Diary Detail Page",
+        "fullName": "ScreenName.DIARY_DETAIL_PAGE",
+        "component": "DiaryDetailPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "DIARY_DELIVERY_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Diary Delivery Page",
+        "fullName": "ScreenName.DIARY_DELIVERY_PAGE",
+        "component": "DiaryDeliveryPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "COUPLE_CONNECT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Connect Page",
+        "fullName": "ScreenName.COUPLE_CONNECT_PAGE",
+        "component": "CoupleConnectPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "COUPLE_DISCONNECT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Disconnect Page",
+        "fullName": "ScreenName.COUPLE_DISCONNECT_PAGE",
+        "component": "CoupleDisconnectPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "INVITE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Invite Page",
+        "fullName": "ScreenName.INVITE_PAGE",
+        "component": "InvitePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "WITHDRAWAL_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Withdrawal Page",
+        "fullName": "ScreenName.WITHDRAWAL_PAGE",
+        "component": "WithdrawalPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "COUPLE_RESTORE_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Restore Page",
+        "fullName": "ScreenName.COUPLE_RESTORE_PAGE",
+        "component": "CoupleRestorePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "USER_BIRTH_EDIT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "User Birth Edit Page",
+        "fullName": "ScreenName.USER_BIRTH_EDIT_PAGE",
+        "component": "UserBirthEditPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "USER_BLOOD_EDIT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "User Blood Edit Page",
+        "fullName": "ScreenName.USER_BLOOD_EDIT_PAGE",
+        "component": "UserBloodEditPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "USER_NICKNAME_EDIT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "User Nickname Edit Page",
+        "fullName": "ScreenName.USER_NICKNAME_EDIT_PAGE",
+        "component": "UserNicknameEditPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "COUPLE_START_DATE_EDIT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Start Date Edit Page",
+        "fullName": "ScreenName.COUPLE_START_DATE_EDIT_PAGE",
+        "component": "CoupleStartDateEditPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SUMONE_TIME_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Sumone Time Page",
+        "fullName": "ScreenName.SUMONE_TIME_PAGE",
+        "component": "SumoneTimePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "REVIEW_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Review Page",
+        "fullName": "ScreenName.REVIEW_PAGE",
+        "component": "ReviewPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "COUPLE_WELCOME_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Couple Welcome Page",
+        "fullName": "ScreenName.COUPLE_WELCOME_PAGE",
+        "component": "CoupleWelcomePage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "INVITATION_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Invitation Page",
+        "fullName": "ScreenName.INVITATION_PAGE",
+        "component": "InvitationPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "INVITE_ACCEPT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Invite Accept Page",
+        "fullName": "ScreenName.INVITE_ACCEPT_PAGE",
+        "component": "InviteAcceptPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "TIME_CAPSULE_DETAIL_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Time Capsule Detail Page",
+        "fullName": "ScreenName.TIME_CAPSULE_DETAIL_PAGE",
+        "component": "TimeCapsuleDetailPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "INVITATION_QNA_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Invitation Qna Page",
+        "fullName": "ScreenName.INVITATION_QNA_PAGE",
+        "component": "InvitationQnaPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 180,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "QNA_BOOKMARK_LIST_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Qna Bookmark List Page",
+        "fullName": "ScreenName.QNA_BOOKMARK_LIST_PAGE",
+        "component": "BookmarkListPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "QNA_BOOKMARK_SWIPE_LIST_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Qna Bookmark Swipe List Page",
+        "fullName": "ScreenName.QNA_BOOKMARK_SWIPE_LIST_PAGE",
+        "component": "BookmarkSwipableListPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "WEEKEND_EVENT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Weekend Event Page",
+        "fullName": "ScreenName.WEEKEND_EVENT_PAGE",
+        "component": "WeekendEventPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "PET_STATUS_TUTORIAL_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Pet Status Tutorial Page",
+        "fullName": "ScreenName.PET_STATUS_TUTORIAL_PAGE",
+        "component": "PetStatusTutorialPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "ZERO_TO_ONE_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Zero To One Stack",
+        "fullName": "NavigatorName.ZERO_TO_ONE_STACK",
+        "component": "ZeroToOneStackNavigator",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "FRIEND_INVITE_EVENT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Friend Invite Event Page",
+        "fullName": "ScreenName.FRIEND_INVITE_EVENT_PAGE",
+        "component": "FriendInviteEventPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "FRIEND_INVITE_INPUT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Friend Invite Input Page",
+        "fullName": "ScreenName.FRIEND_INVITE_INPUT_PAGE",
+        "component": "FriendInviteInputPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "MAFOO_EVENT_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Mafoo Event Page",
+        "fullName": "ScreenName.MAFOO_EVENT_PAGE",
+        "component": "MafooEventPage",
+        "file": "navigations/TrunkStackNavigator.tsx"
+      },
+      "position": {
+        "x": 360,
+        "y": 240
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "ZeroToOneStack",
+      "type": "navigator",
+      "data": {
+        "label": "Zerotoonestack",
+        "fullName": "ZeroToOneStack",
+        "component": "ZeroToOneStack",
+        "navigatorType": "createStackNavigator",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 1600,
+        "y": 100
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "SUMLOG_INITIAL_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Sumlog Initial Page",
+        "fullName": "ScreenName.SUMLOG_INITIAL_PAGE",
+        "component": "SumlogInitialPage",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 1400,
+        "y": 200
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "BUCKET_LIST_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Bucket List Stack",
+        "fullName": "NavigatorName.BUCKET_LIST_STACK",
+        "component": "BucketListPage",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 1600,
+        "y": 200
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "DDAY_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Dday Stack",
+        "fullName": "NavigatorName.DDAY_STACK",
+        "component": "DDayStackNavigator",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 1800,
+        "y": 200
+      },
+      "sourcePosition": "bottom",
+      "targetPosition": "top"
+    },
+    {
+      "id": "CALENDAR_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Calendar Stack",
+        "fullName": "NavigatorName.CALENDAR_STACK",
+        "component": "CalendarStackNavigator",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 2520,
+        "y": 480
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SUMLOG_INPUT_DIARY_STACK",
+      "type": "screen",
+      "data": {
+        "label": "Sumlog Input Diary Stack",
+        "fullName": "NavigatorName.SUMLOG_INPUT_DIARY_STACK",
+        "component": "SumlogInputDiaryStackNavigator",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 2700,
+        "y": 480
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SUMLOG_INPUT_PHOTO_LOADING_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Sumlog Input Photo Loading Page",
+        "fullName": "ScreenName.SUMLOG_INPUT_PHOTO_LOADING_PAGE",
+        "component": "SumlogInputPhotoLoadingPage",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 2880,
+        "y": 480
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    },
+    {
+      "id": "SUMLOG_PHOTO_VIEWER_PAGE",
+      "type": "screen",
+      "data": {
+        "label": "Sumlog Photo Viewer Page",
+        "fullName": "ScreenName.SUMLOG_PHOTO_VIEWER_PAGE",
+        "component": "SumlogPhotoViewerPage",
+        "file": "navigations/ZeroToOneStackNavigator/ZeroToOneStackNavigatorOrganizer.tsx"
+      },
+      "position": {
+        "x": 3060,
+        "y": 480
+      },
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    }
+  ],
+  "edges": [
+    {
+      "id": "CalendarStack-SUMLOG_TIMELINE_PAGE",
+      "source": "CalendarStack",
+      "target": "SUMLOG_TIMELINE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "CalendarStack-SUMLOG_CALENDAR_PAGE",
+      "source": "CalendarStack",
+      "target": "SUMLOG_CALENDAR_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "HomeStack-HOME_PAGE",
+      "source": "HomeStack",
+      "target": "HOME_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "HomeStack-HISTORY_LIST_PAGE",
+      "source": "HomeStack",
+      "target": "HISTORY_LIST_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "MainTab-HOME_STACK",
+      "source": "MainTab",
+      "target": "HOME_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "MainTab-QNA_TAB",
+      "source": "MainTab",
+      "target": "QNA_TAB",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "MainTab-SETTING_STACK",
+      "source": "MainTab",
+      "target": "SETTING_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-QNA_SWIPE_LIST_PAGE",
+      "source": "TrunkStack",
+      "target": "QNA_SWIPE_LIST_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-QNA_ANSWER_PAGE",
+      "source": "TrunkStack",
+      "target": "QNA_ANSWER_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-QNA_COMMENT_PAGE",
+      "source": "TrunkStack",
+      "target": "QNA_COMMENT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "QnATab-QNA_LIST_PAGE",
+      "source": "QnATab",
+      "target": "QNA_LIST_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "RootStack-TRUNK_STACK",
+      "source": "RootStack",
+      "target": "TRUNK_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "RootStack-USER_ACTIVATE_PAGE",
+      "source": "RootStack",
+      "target": "USER_ACTIVATE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "RootStack-AUTH_LANDING_PAGE",
+      "source": "RootStack",
+      "target": "AUTH_LANDING_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "RootStack-WEB_PAGE",
+      "source": "RootStack",
+      "target": "WEB_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-COUPLE_PROFILE_PAGE",
+      "source": "SettingStack",
+      "target": "COUPLE_PROFILE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-SETTING_PAGE",
+      "source": "SettingStack",
+      "target": "SETTING_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-SYSTEM_INFO_PAGE",
+      "source": "SettingStack",
+      "target": "SYSTEM_INFO_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-COUPLE_CONNECTION_INFO_PAGE",
+      "source": "SettingStack",
+      "target": "COUPLE_CONNECTION_INFO_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-COUPLE_INFO_PAGE",
+      "source": "SettingStack",
+      "target": "COUPLE_INFO_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-DATA_REFRESH_PAGE",
+      "source": "SettingStack",
+      "target": "DATA_REFRESH_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-CS_CATEGORY_PAGE",
+      "source": "SettingStack",
+      "target": "CS_CATEGORY_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-ITEM_STORAGE_PAGE",
+      "source": "SettingStack",
+      "target": "ITEM_STORAGE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-LANGUAGE_PAGE",
+      "source": "SettingStack",
+      "target": "LANGUAGE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "SettingStack-NOTIFICATION_SETTING_PAGE",
+      "source": "SettingStack",
+      "target": "NOTIFICATION_SETTING_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-MAIN_TAB",
+      "source": "TrunkStack",
+      "target": "MAIN_TAB",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-QNA_STACK",
+      "source": "TrunkStack",
+      "target": "QNA_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-OBJET_SHOP_PAGE",
+      "source": "TrunkStack",
+      "target": "OBJET_SHOP_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-OBJET_PREVIEW_PAGE",
+      "source": "TrunkStack",
+      "target": "OBJET_PREVIEW_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-OBJET_PURCHASE_PAGE",
+      "source": "TrunkStack",
+      "target": "OBJET_PURCHASE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-SHOP_PAGE",
+      "source": "TrunkStack",
+      "target": "SHOP_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-GOLD_PURCHASE_PAGE",
+      "source": "TrunkStack",
+      "target": "GOLD_PURCHASE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-MEMO_WRITE_PAGE",
+      "source": "TrunkStack",
+      "target": "MEMO_WRITE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-MEMO_CONFIRM_PAGE",
+      "source": "TrunkStack",
+      "target": "MEMO_CONFIRM_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-COUPLE_MEMO_LIST_PAGE",
+      "source": "TrunkStack",
+      "target": "COUPLE_MEMO_LIST_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-COUPLE_MEMO_DETAIL_PAGE",
+      "source": "TrunkStack",
+      "target": "COUPLE_MEMO_DETAIL_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-DIARY_DRAW_PAGE",
+      "source": "TrunkStack",
+      "target": "DIARY_DRAW_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-PET_REGISTRATION_PAGE",
+      "source": "TrunkStack",
+      "target": "PET_REGISTRATION_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-PET_SPACE_CUSTOM_PAGE",
+      "source": "TrunkStack",
+      "target": "PET_SPACE_CUSTOM_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-PET_SKIN_SHOP_PAGE",
+      "source": "TrunkStack",
+      "target": "PET_SKIN_SHOP_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-PET_SKIN_GACHA_PAGE",
+      "source": "TrunkStack",
+      "target": "PET_SKIN_GACHA_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-PET_SKIN_CUSTOM_PAGE",
+      "source": "TrunkStack",
+      "target": "PET_SKIN_CUSTOM_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-PET_EVOLVE_PAGE",
+      "source": "TrunkStack",
+      "target": "PET_EVOLVE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-DIARY_LIST_PAGE",
+      "source": "TrunkStack",
+      "target": "DIARY_LIST_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-DIARY_DETAIL_PAGE",
+      "source": "TrunkStack",
+      "target": "DIARY_DETAIL_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-DIARY_DELIVERY_PAGE",
+      "source": "TrunkStack",
+      "target": "DIARY_DELIVERY_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-COUPLE_CONNECT_PAGE",
+      "source": "TrunkStack",
+      "target": "COUPLE_CONNECT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-COUPLE_DISCONNECT_PAGE",
+      "source": "TrunkStack",
+      "target": "COUPLE_DISCONNECT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-INVITE_PAGE",
+      "source": "TrunkStack",
+      "target": "INVITE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-WEB_PAGE",
+      "source": "TrunkStack",
+      "target": "WEB_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-WITHDRAWAL_PAGE",
+      "source": "TrunkStack",
+      "target": "WITHDRAWAL_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-COUPLE_RESTORE_PAGE",
+      "source": "TrunkStack",
+      "target": "COUPLE_RESTORE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-USER_BIRTH_EDIT_PAGE",
+      "source": "TrunkStack",
+      "target": "USER_BIRTH_EDIT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-USER_BLOOD_EDIT_PAGE",
+      "source": "TrunkStack",
+      "target": "USER_BLOOD_EDIT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-USER_NICKNAME_EDIT_PAGE",
+      "source": "TrunkStack",
+      "target": "USER_NICKNAME_EDIT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-COUPLE_START_DATE_EDIT_PAGE",
+      "source": "TrunkStack",
+      "target": "COUPLE_START_DATE_EDIT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-SUMONE_TIME_PAGE",
+      "source": "TrunkStack",
+      "target": "SUMONE_TIME_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-REVIEW_PAGE",
+      "source": "TrunkStack",
+      "target": "REVIEW_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-COUPLE_WELCOME_PAGE",
+      "source": "TrunkStack",
+      "target": "COUPLE_WELCOME_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-INVITATION_PAGE",
+      "source": "TrunkStack",
+      "target": "INVITATION_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-INVITE_ACCEPT_PAGE",
+      "source": "TrunkStack",
+      "target": "INVITE_ACCEPT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-TIME_CAPSULE_DETAIL_PAGE",
+      "source": "TrunkStack",
+      "target": "TIME_CAPSULE_DETAIL_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-INVITATION_QNA_PAGE",
+      "source": "TrunkStack",
+      "target": "INVITATION_QNA_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-ITEM_STORAGE_PAGE",
+      "source": "TrunkStack",
+      "target": "ITEM_STORAGE_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-QNA_BOOKMARK_LIST_PAGE",
+      "source": "TrunkStack",
+      "target": "QNA_BOOKMARK_LIST_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-QNA_BOOKMARK_SWIPE_LIST_PAGE",
+      "source": "TrunkStack",
+      "target": "QNA_BOOKMARK_SWIPE_LIST_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-WEEKEND_EVENT_PAGE",
+      "source": "TrunkStack",
+      "target": "WEEKEND_EVENT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-PET_STATUS_TUTORIAL_PAGE",
+      "source": "TrunkStack",
+      "target": "PET_STATUS_TUTORIAL_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-ZERO_TO_ONE_STACK",
+      "source": "TrunkStack",
+      "target": "ZERO_TO_ONE_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-FRIEND_INVITE_EVENT_PAGE",
+      "source": "TrunkStack",
+      "target": "FRIEND_INVITE_EVENT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-FRIEND_INVITE_INPUT_PAGE",
+      "source": "TrunkStack",
+      "target": "FRIEND_INVITE_INPUT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "TrunkStack-MAFOO_EVENT_PAGE",
+      "source": "TrunkStack",
+      "target": "MAFOO_EVENT_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "ZeroToOneStack-SUMLOG_INITIAL_PAGE",
+      "source": "ZeroToOneStack",
+      "target": "SUMLOG_INITIAL_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "ZeroToOneStack-BUCKET_LIST_STACK",
+      "source": "ZeroToOneStack",
+      "target": "BUCKET_LIST_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "ZeroToOneStack-DDAY_STACK",
+      "source": "ZeroToOneStack",
+      "target": "DDAY_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "ZeroToOneStack-CALENDAR_STACK",
+      "source": "ZeroToOneStack",
+      "target": "CALENDAR_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "ZeroToOneStack-SUMLOG_INPUT_DIARY_STACK",
+      "source": "ZeroToOneStack",
+      "target": "SUMLOG_INPUT_DIARY_STACK",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "ZeroToOneStack-SUMLOG_INPUT_PHOTO_LOADING_PAGE",
+      "source": "ZeroToOneStack",
+      "target": "SUMLOG_INPUT_PHOTO_LOADING_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "ZeroToOneStack-SUMLOG_PHOTO_VIEWER_PAGE",
+      "source": "ZeroToOneStack",
+      "target": "SUMLOG_PHOTO_VIEWER_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    },
+    {
+      "id": "ZeroToOneStack-DIARY_LIST_PAGE",
+      "source": "ZeroToOneStack",
+      "target": "DIARY_LIST_PAGE",
+      "type": "smoothstep",
+      "data": {
+        "params": {
+          "required": {},
+          "optional": {}
+        }
+      },
+      "animated": true
+    }
+  ]
+}
